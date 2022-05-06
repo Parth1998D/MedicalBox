@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022165032792",
+    "firebase_url": "https://medicalbox-536b4.firebaseio.com",
+    "project_id": "medicalbox-536b4",
+    "storage_bucket": "medicalbox-536b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022165032792:android:8387a826064e14e5de8f2d",
+        "android_client_info": {
+          "package_name": "com.example.medicalbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022165032792-v3a7uu0j3pjuoe2u7coc8i32oojeecem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicalbox",
+            "certificate_hash": "2c7f35dc7103b72f42de6c5d78ef35fe98199847"
+          }
+        },
+        {
+          "client_id": "1022165032792-p69fefgt30mpk91ds24tmnp09sp36ga3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7IfVN7ixW2kkfX1fxVGu3I2n-VZO1AJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022165032792-p69fefgt30mpk91ds24tmnp09sp36ga3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

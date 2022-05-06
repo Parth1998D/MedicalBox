@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageBox"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/bd2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ico12"
+        android:layout_marginTop="65dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box 1"
+            android:id="@+id/box1"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginVertical="8dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box 2"
+            android:id="@+id/box2"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginVertical="8dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box 3"
+            android:id="@+id/box3"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginVertical="8dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box 4"
+            android:textSize="18sp"
+            android:id="@+id/box4"
+            android:textAllCaps="false"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginVertical="8dp"/>
+    </LinearLayout>
+</LinearLayout>
